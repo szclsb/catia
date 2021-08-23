@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shared", "shared\shared.csproj", "{6AB17124-D2F8-4BF7-BF53-AB3661C693FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fgbgv", "fgbgv\fgbgv.csproj", "{4FF3640C-DDD5-47BD-B72F-186E430898CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{6AB17124-D2F8-4BF7-BF53-AB3661C693FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AB17124-D2F8-4BF7-BF53-AB3661C693FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AB17124-D2F8-4BF7-BF53-AB3661C693FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FF3640C-DDD5-47BD-B72F-186E430898CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FF3640C-DDD5-47BD-B72F-186E430898CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FF3640C-DDD5-47BD-B72F-186E430898CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FF3640C-DDD5-47BD-B72F-186E430898CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
