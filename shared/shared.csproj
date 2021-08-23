@@ -32,13 +32,29 @@
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
     <ItemGroup>
+        <Reference Include="DRAFTINGITF, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\lib\DRAFTINGITF.dll</HintPath>
+        </Reference>
+        <Reference Include="INFITF, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\lib\INFITF.dll</HintPath>
+        </Reference>
+        <Reference Include="KnowledgewareTypeLib, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\lib\KnowledgewareTypeLib.dll</HintPath>
+        </Reference>
+        <Reference Include="MECMOD, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\lib\MECMOD.dll</HintPath>
+        </Reference>
+        <Reference Include="ProductStructureTypeLib, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\lib\ProductStructureTypeLib.dll</HintPath>
+        </Reference>
         <Reference Include="System" />
         <Reference Include="System.Core" />
         <Reference Include="System.Data" />
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Class1.cs" />
+        <Compile Include="Bootstrap.cs" />
+        <Compile Include="DocType.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
